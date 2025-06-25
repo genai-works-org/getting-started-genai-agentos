@@ -96,6 +96,7 @@ async def main():
 
 await main()
 ```
-Запустите, и агент появится в UI.
+When you run this, you will see your agent running on UI.
+This is great for testing your logic remotely, but not recommended for running full WebSocket sessions.
 
 Enjoy hacking! 🚀
