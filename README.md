@@ -3,8 +3,9 @@
 Welcome to the GenAI AgentOS framework! This guide walks you through everything you need to start building, registering, and running your own AI agent with the GenAI protocol.
 
 ## 📦 Prerequisites
-- Docker
-- Python 3.10+
+Before you begin, make sure the following tools are installed:
+- [Docker](https://www.docker.com/)
+- [Python 3.10+](https://www.python.org/)
 - Git
 - [uv](https://github.com/astral-sh/uv) (optional but recommended)
 - ngrok (optional, for deployment)
@@ -19,7 +20,8 @@ cd genai-agentos
 ```bash
 cp .env-example .env
 ```
-This command creates the `.env` file required to run AgentOS. You do not need to uncomment any variables to get started, but you can customize them as needed.
+This command will create the .env file which is **mandatory** for running AgentOS. Initially, the .env file contains **commented variables**.
+You do **not** need to uncomment any variables to run the platform or register your agents. However, if you want to use your own configuration, you can uncomment and update the values as needed.
 
 ## 3. 🐋 Run the Platform Locally
 Make sure Docker is running and start the containers:
