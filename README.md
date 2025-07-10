@@ -84,7 +84,7 @@ Navigate to the agent folder:
 cd agents/<agent_name>
 ```
 
-Open the generated Python file and put some logic for your agent. You can also refer to example agents here: [Example Agents Repository](genai_agents_example).
+Open the generated Python file and put some logic for your agent. You can also refer to example agents here: [Example Agents Repository](https://github.com/genai-works-org/genai-agentos/tree/main/genai_agents_example).
 
 ### ▶️ Run the Agent
 Run your agent using one of the following commands:
